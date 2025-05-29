@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kishor M - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            background: linear-gradient(227deg, #0f617e, #b3ddeb00);
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            border: 2px solid #0f617e;
+        }
+
+        h1 {
+            color: #ffffff;
+            background-color: #0f617e;
+            padding: 10px 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            font-size: 1.8em;
+        }
+
+        h2 {
+            color: #0f617e;
+            border-bottom: 2px solid #0f617e;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            font-size: 1.4em;
+        }
+
+        h3 {
+            color: #0c4c5a;
+            font-size: 1.2em;
+        }
+
+        section {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            color: #333;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-right: 15px;
+            background-color: #0f617e;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact a:hover {
+            background-color: #094a60;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px 15px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            h3 {
+                font-size: 1.1em;
+            }
+
+            .contact a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Main Heading -->
+        <h1>Kishor M</h1>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate web developer with a background in computer science. I enjoy creating simple, clean, and user-friendly websites. 
+                I have a strong interest in frontend development and love learning new technologies. 
+                My creativity and problem-solving skills make me unique in the tech space.
+            </p>
+        </section>
+
+        <!-- Skills and Interests -->
+        <section id="skills-interests">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+            </ul>
+
+            <h2>Interests</h2>
+            <ol>
+                <li>Web Development</li>
+                <li>UI/UX Design</li>
+                <li>Tech Blogging</li>
+            </ol>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <h3>Personal Blog</h3>
+            <p>
+                A simple and responsive personal blog website created using HTML and CSS. It features a clean layout, multiple posts, and basic navigation. This project helped me understand webpage structure and content organization.
+            </p>
+
+            <h3>Portfolio Website</h3>
+            <p>
+                This is the current portfolio site showcasing my skills, interests, and projects. Built with HTML and CSS, it demonstrates my ability to structure content and design user-friendly layouts.
+            </p>
+
+            <h3>To-Do App</h3>
+            <p>
+                A simple JavaScript-based to-do list application that allows users to add, delete, and mark tasks as complete. It introduced me to DOM manipulation and dynamic user interactions.
+            </p>
+        </section>
+
+        <!-- Contact Information -->
+        <section id="contact" class="contact">
+            <h2>Contact Information</h2>
+             <p>Email: <a href="mailto:your.kishorsid2005@gmail.com">kishorsid2005@gmail.com</a></p>
+          <a href="https://www.linkedin.com/in/kishor-kishor-78b36b311" target="_blank">LinkedIn</a>
+        </section>
+    </div>
+
+</body>
+</html>
