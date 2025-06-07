@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxury Car Rentals</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #111;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+      background-color: #222;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-weight: 800;
+      font-size: 1.8rem;
+      color: #00e0ff;
+    }
+
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #00e0ff;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem 6rem;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 4rem;
+      font-weight: 900;
+      margin: 0;
+      color: #005662;
+    }
+
+    .hero-text p {
+      font-size: 1.2rem;
+      margin: 1.5rem 0;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .cta {
+      padding: 0.75rem 1.5rem;
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    .hero img {
+      width: 40%;
+      max-width: 500px;
+    }
+
+    section {
+      padding: 4rem 6rem;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    #about {
+      background-color: #fce4ec;
+    }
+
+    #contact {
+      background-color: #e3f2fd;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #fff;
+      font-size: 1rem;
+      background-color: #111;
+    }
+
+    .info-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .info-card {
+      flex: 1;
+      min-width: 250px;
+      padding: 1.5rem;
+      background: #fff;
+      border-left: 6px solid #00bcd4;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .info-card h3 {
+      margin-top: 0;
+      color: #00796b;
+    }
+
+    .info-card p {
+      margin: 0.5rem 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">CARMANIAC</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>LUXURY CAR'S</h1>
+      <p>Find the perfect car today! Explore our wide selection of luxury vehicles and make your journey truly exceptional.</p>
+      <button class="cta">Book Now</button>
+    </div>
+    <img src="data:image/jpeg;base64,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" alt="Luxury Car"/>
+  </section>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Us</h2>
+      <p>
+        At <strong>CarManiac</strong>, we redefine luxury on the road. Since our launch, we've been committed to offering premium cars for every kind of traveler. Whether you're cruising the coast or making a bold impression at your next meeting, we have the perfect ride for you.
+      </p>
+      <div class="info-group" style="margin-top: 2rem;">
+        <div class="info-card">
+          <h3>Our Vision</h3>
+          <p>To be the leading luxury car rental service, known for innovation and style.</p>
+        </div>
+        <div class="info-card">
+          <h3>Our Fleet</h3>
+          <p>We offer a wide range of luxury cars from brands like BMW, Audi, Mercedes, and more.</p>
+        </div>
+        <div class="info-card">
+          <h3>Our Promise</h3>
+          <p>Unmatched customer experience and vehicle quality every single time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>We’re here to help you 24/7! Whether you have questions or want to book a ride, reach out to us.</p>
+      <div class="info-group" style="margin-top: 2rem;">
+        <div class="info-card">
+          <h3>Email</h3>
+          <p>support@carmaniac.com</p>
+        </div>
+        <div class="info-card">
+          <h3>Phone</h3>
+          <p>+1 (555) 123-4567</p>
+        </div>
+        <div class="info-card">
+          <h3>Location</h3>
+          <p>123 Luxury Drive, Auto City, USA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 CarManiac. All rights reserved.
+  </footer>
+
+</body>
+</html>
