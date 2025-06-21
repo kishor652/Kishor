@@ -1,0 +1,100 @@
+import React from "react";
+
+export default function ProfitParkLandingPage() {
+  return (
+    <div className="min-h-screen bg-black text-white font-sans">
+      {/* Hero Section */}
+      <section className="text-center py-20 px-4 bg-gradient-to-b from-black to-gray-900">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">ProfitPark</h1>
+        <p className="text-xl mb-6">Smart Parking for Smart Investors</p>
+        <a href="#contact" className="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300">
+          Start Investing
+        </a>
+      </section>
+
+      {/* How it Works */}
+      <section className="py-16 px-6 bg-gray-900 text-center">
+        <h2 className="text-3xl font-bold mb-10">How It Works</h2>
+        <div className="grid md:grid-cols-4 gap-6 text-left">
+          <div>
+            <h3 className="text-xl font-semibold mb-2">1️⃣ You Invest</h3>
+            <p>Invest in a second-hand car through ProfitPark.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-2">2️⃣ We Park & Sell</h3>
+            <p>We handle the car, parking, and selling process.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-2">3️⃣ You Hold the Car</h3>
+            <p>You can keep the car & its RC Book for trust assurance.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-2">4️⃣ Earn Profit</h3>
+            <p>After sale, get your money + profit. We charge a small commission.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits */}
+      <section className="py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-8">Why Choose ProfitPark?</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <p>✅ Higher returns than FD or savings</p>
+          <p>✅ Asset-backed investment</p>
+          <p>✅ Full transparency and trust</p>
+          <p>✅ Hassle-free resale managed by our team</p>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-16 px-6 bg-gray-800 text-center">
+        <h2 className="text-3xl font-bold mb-8">Success Stories</h2>
+        <p className="italic">“Ravi invested ₹3.2L and earned ₹35,000 in 45 days — without any effort.”</p>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 px-6 text-left bg-gray-900">
+        <h2 className="text-3xl font-bold mb-8 text-center">FAQs</h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-xl font-semibold">Is my money safe?</h3>
+            <p>Yes, your money will be in safe hands. Your investment is linked to a real used car.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">Who holds the car?</h3>
+            <p>You can hold the car and the RC Book for full trust.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">What if the car doesn't sell?</h3>
+            <p>If it doesn't sell in 1 month, you’ll get ₹1,000 bonus from us.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">What profit is assured?</h3>
+            <p>If the car sells in 1 month, a minimum of ₹2,500 profit is assured.</p>
+          </div>
+          <div>
+            <h3 className="text-xl font-semibold">Can I invest again?</h3>
+            <p>Definitely! You can invest in multiple cars and continue earning.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
+        <p className="mb-4">📞 +91-XXXXXXXXXX</p>
+        <p className="mb-6">📧 support@profitpark.in</p>
+        <a
+          href="https://wa.me/91XXXXXXXXXX"
+          className="inline-block bg-green-500 text-white px-6 py-3 rounded-full text-lg hover:bg-green-400"
+        >
+          Chat on WhatsApp
+        </a>
+      </section>
+
+      <footer className="text-center text-sm py-4 bg-black text-gray-500">
+        © {new Date().getFullYear()} ProfitPark. All rights reserved.
+      </footer>
+    </div>
+  );
+}
